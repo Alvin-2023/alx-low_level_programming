@@ -14,6 +14,6 @@ while (alpha <= 'z')
 	putchar(alpha);
 	alpha++;
 }
- printf("\n");
+ putchar("\n");
 return (0);
 }
