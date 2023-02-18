@@ -15,6 +15,7 @@ for (num = 0; num <= 9; num++)
   if (num < i + 1 && i != 9)
   {
   putchar(',');
+  putchar(' ');
   i++;
   }
   }
