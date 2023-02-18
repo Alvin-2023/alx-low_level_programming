@@ -17,7 +17,8 @@ for (num = 0; num <= 9; num++)
   putchar(',');
   i++;
   }
-  }  
+  }
+ putchar('$');
  putchar('\n');
  return (0);
 }
