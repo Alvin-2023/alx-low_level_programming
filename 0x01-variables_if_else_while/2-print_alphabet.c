@@ -13,7 +13,7 @@ while (alpha <= 'z')
 {
 	putchar(alpha);
 	alpha++;
-	printf("\n")
 }
+ printf("\n");
 return (0);
 }
