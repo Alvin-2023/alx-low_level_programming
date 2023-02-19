@@ -8,9 +8,11 @@
 
 int main(void)
 {
-  char this_that[] = "Programming is like building a multilingual puzzle \n";
+  char this_that[] = "Programming is like building a multilingual puzzle";
 
   puts(this_that);
 
+  putchar('\n');
+  
   return (0);
 } 
