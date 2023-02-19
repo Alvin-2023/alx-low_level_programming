@@ -1,5 +1,7 @@
 /**
  * Main - entry point of our program
+ * @this_that stores our char characters for the string
+ * @Puts - prints the string to the output
  * Return - terminate function main
 */
 #include <stdio.h>
