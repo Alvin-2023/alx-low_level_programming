@@ -4,11 +4,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-int main(void)
-{
-	void print_alphabet();
-	return 0;
-}
+/*print_alphabet - Prints letters of the alphabet in lowercase from 'a" to 'z'*/
 void print_alphabet(void)
 {
 	char az = 'a';
