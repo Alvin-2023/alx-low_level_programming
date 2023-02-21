@@ -6,12 +6,16 @@
 #include <stdlib.h>
 int main(void)
 {
+	void print_alphabet();
+	return 0;
+}
+void print_alphabet(void)
+{
 	char az = 'a';
-	while (az < 'z')
+	while (az <= 'z')
 	{
 		putchar(az);
 		az++;
 	}
 	putchar('\n');
-	return (0);
 }
