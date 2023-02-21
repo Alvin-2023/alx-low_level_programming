@@ -5,7 +5,6 @@
 #include <stdlib.h>
 
 /*Function prototypes*/
-int putchar(char);
 void print_alphabet(void);
 
-#endif // MAIN_H
+#endif /* MAIN_H */
