@@ -5,6 +5,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
+/* Entry point of our program*/
 int main(void)
 {
 	putchar('_');
@@ -16,5 +17,6 @@ int main(void)
 	putchar('a');
 	putchar('r');
 	putchar('\n');
+	/* Terminates the main function*/
 	return (0);
 }
