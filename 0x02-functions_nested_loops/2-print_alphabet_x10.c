@@ -3,18 +3,19 @@
  * return - terminates main
  */
 #include <stdio.h>
-/*void print_alphabet_x10(void)
-{
-	return (0);
-}
-*/
-int main(void)
-{
-	char az[26] = "abcdefghijklmnopqrstuvwxyz";
-	while (az[26] < az[261])
-	{
-		putchar(az[26]);
+void print_alphabet_x10() {
+	int i, a;
+	for (i = 0; i < 10; i++) {
+		for (a = 97; a <= 122; a++) {
+			putchar(a);
+		}
 		putchar('\n');
 	}
-	return (0);
+	putchar('\n');
+	putchar('\n');
+}
+
+int main() {
+	print_alphabet_x10();
+	return 0;
 }
