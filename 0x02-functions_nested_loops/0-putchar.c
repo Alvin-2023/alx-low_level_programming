@@ -6,18 +6,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int putchar(char);
-
 int i;
 
 int main(void)
 {
-	char strchar[] = "_putchar";
-
-	for (int i = 0; strchar[i] != '\0'; i++)
-	{
-		putchar(strchar[i]);
-	}
-
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+	
 	return (0);
 }
