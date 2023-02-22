@@ -1,20 +1,13 @@
 /**
- * main-entry point of our program
- * return - terminates main function
+ * _islower - checks for lowercase character
+ * @c: the character to check
+ *
+ * Return: 1 if c is lowercase, 0 otherwise
  */
-#include <stdio.h>
-#include <ctype.h>
-/*_islower tests to see if a character is upper or lower case */
 int _islower(int c)
 {
-	int ch = 'c';
-
-	if (islower(that))
-	{
+	if (c >= 'a' && c <= 'z')
 		return 1;
-	}
 	else
-	{
 		return 0;
-	}
 }
