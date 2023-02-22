@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 /*Function prototypes*/
-int _putchar(int c);
+int _putchar(char c);
 
 int putchar(int n);
 
