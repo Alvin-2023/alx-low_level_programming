@@ -1,28 +1,24 @@
 /**
- * main - entry point of our program
- * return - terminates main
+ * print_sign - prints the sign of a number
+ * @n: the number to check
+ *
+ * Return: 1 if n is positive, -1 if n is negative, and 0 otherwise
  */
-#include <stdio.h>
-#include <stdlib.h>
-
 int print_sign(int n)
 {
-	char plus = '+';
-	char minus = '-';
 	if (n > 0)
 	{
 		putchar('+');
-		return plus;
+		return (1);
 	}
-	else if (n == 0)
+	else if (n < 0)
 	{
-		putchar('0');
-		return 0;
+		putchar('-');
+		return (-1);
 	}
 	else
 	{
-		putchar('-');
-		return minus;
+		putchar('0');
+		return (0);
 	}
-	return (0);
 }
