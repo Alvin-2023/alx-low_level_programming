@@ -5,9 +5,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int print_sign(n)
+int print_sign(int n)
 {
-	int n;
 	char plus = '+';
 	char minus = '-';
 	if (n > 0)
