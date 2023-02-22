@@ -1,17 +1,15 @@
-/**
- * main - entry point of our program
- * return - terminates main function
- */
-#include <stdio.h>
-#include <stdlib.h>
+#include <ctype.h>
 
+/**
+ * _isalpha - checks whether a character is alphabetic
+ * @c: the character to check
+ *
+ * Return: 1 if c is alphabetic, 0 otherwise
+ */
 int _isalpha(int c)
 {
-	int part = 'c';
-
-	if ('c' = 67)
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return 1;
 	else
 		return 0;
-	putchar('\n');
 }
