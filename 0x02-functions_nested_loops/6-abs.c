@@ -1,19 +1,17 @@
 /**
- * main - entry point of our program
- *return - terminates main
+ * _abs - computes the absolute value of an integer
+ * @n: the integer whose absolute value is to be computed
+ *
+ * Return: the absolute value of the integer
  */
-
-#include <stdlib.h>
-#include <stdio.h>
-
-void int_abs(int num) {
-	int abs_number = abs(num);
-	if (num < 0) {
-		putchar('-');
+int _abs(int n)
+{
+	if (n < 0)
+	{
+		return -n;
 	}
-	while (abs_number > 0) {
-		putchar('0' + abs_value % 10);
-		abs_number /= 10;
+	else
+	{
+		return n;
 	}
-	putchar('\n');
 }
