@@ -2,10 +2,10 @@
  * main - entry poin of our program
  * return - termnates main function
  */
-#inclue "main.h"
+#include "main.h"
 #include <stdio.h>
 
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 	int n;
 	int lst = n % 10;
