@@ -1,5 +1,7 @@
 #include <stdlib.h>
 
+int _putchar(char c);
+
 int print_last_digit(int num)
 {
 	int last_digit;
@@ -9,11 +11,10 @@ int print_last_digit(int num)
 
 	last_digit = num % 10;
 
-	char buffer[2];
-	buffer[0] = last_digit + '0';
-	buffer[1] = '\0';
+	char digit_char = last_digit + '0';
 
-	puts(buffer);
+	_putchar(digit_char);
+	_putchar('\n');
 
 	return (last_digit);
 }
