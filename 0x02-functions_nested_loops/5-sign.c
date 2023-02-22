@@ -4,6 +4,8 @@
  *
  * Return: 1 if n is positive, -1 if n is negative, and 0 otherwise
  */
+#include "main.h"
+#include <stdio.h>
 int print_sign(int n)
 {
 	if (n > 0)
