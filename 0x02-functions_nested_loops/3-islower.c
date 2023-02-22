@@ -7,7 +7,7 @@
 /*_islower tests to see if a character is upper or lower case */
 int _islower(int c)
 {
-	char ch = 'c';
+	int ch = 'c';
 
 	if (islower(that))
 	{
