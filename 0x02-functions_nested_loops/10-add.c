@@ -16,7 +16,7 @@ int add(int a, int b)
 	if (sum == 0)
 	{
 		_putchar('0');
-		return 0;
+		return (0);
 	}
 	if (sum < 0)
 	{
@@ -35,5 +35,5 @@ int add(int a, int b)
 	}
 
 	_putchar('\n');
-	return 0;
+	return (0);
 }
