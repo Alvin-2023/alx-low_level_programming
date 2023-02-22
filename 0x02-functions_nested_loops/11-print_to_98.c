@@ -8,14 +8,14 @@ void print_to_98(int n)
 {
 	while (n <= 98)
 	{
-		putchar(n / 10 + '0');
-		putchar(n % 10 + '0');
+		_putchar(n / 10 + '0');
+		_putchar(n % 10 + '0');
 		if (n < 98)
 		{
-			putchar(',');
-			putchar(' ');
+			_putchar(',');
+			_putchar(' ');
 		}
 		n++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
