@@ -3,7 +3,6 @@
  * return - terminates main function
  */
 #include <stdio.h>
-#include <cytpe.h>
 #include <stdlib.h>
 
 int _isalpha(int c)
