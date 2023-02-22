@@ -1,5 +1,6 @@
 /**
  * main - entry point of our function
+ * @a and @b are the two numbers being stored and added to each other
  * return - terminate main function
  */
 #include "main.h"
