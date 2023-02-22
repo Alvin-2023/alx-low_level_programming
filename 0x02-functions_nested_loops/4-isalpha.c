@@ -7,10 +7,11 @@
 
 int _isalpha(int c)
 {
-	int that = 'c';
+	int part = 'c';
 
-	if (that = 67)
+	if ('c' = 67)
 		return 1;
 	else
 		return 0;
+	putchar('\n');
 }
