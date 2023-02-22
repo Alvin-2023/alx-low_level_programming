@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int print_sign(int n)
+int print_sign(n)
 {
 	int n;
 	char plus = '+';
@@ -15,7 +15,7 @@ int print_sign(int n)
 		putchar('+');
 		return plus;
 	}
-	if else (n = 0)
+	else if (n = 0)
 	{
 		putchar('0');
 		return 0;
