@@ -1,10 +1,11 @@
-#include "main.h"
-
 /**
  * main - entry point of our program
  * return - terminates the main function
  * print_numbers - prints numbers from 0 to 9
  */
+#include <stdlib.h>
+#include <stdio.h>
+#include "main.h"
 
 void print_numbers(void)
 {
@@ -12,6 +13,6 @@ void print_numbers(void)
   for (p = 48; p < 58; p++)
     {
       _putchar(p);
-      _putchar('\n');
     }
+  _putchar('\n');
 }
