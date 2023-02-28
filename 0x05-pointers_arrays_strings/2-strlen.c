@@ -1,5 +1,5 @@
 /**
- * string_length - Returns the length of a string.
+ * _strlen - Returns the length of a string.
  *
  * @str: A pointer to the string to get the length of.
  *
