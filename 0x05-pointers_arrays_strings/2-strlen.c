@@ -5,7 +5,7 @@
  *
  * Return: The length of the string.
  */
-int string_length(char *str)
+int _strlen(char *str)
 {
         const char *ptr = str; /* Pointer to the beginning of the string */
 
