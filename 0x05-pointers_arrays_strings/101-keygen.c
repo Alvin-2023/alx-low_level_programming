@@ -12,6 +12,8 @@
  */
 int main(void)
 {
+	int i;
+
 	char password[PASSWORD_LENGTH + 1];
 	char *p;
 
@@ -19,7 +21,7 @@ int main(void)
 
 	p = password;
 
-	for (int i = 0; i < PASSWORD_LENGTH; i++)
+	for (i = 0; i < PASSWORD_LENGTH; i++)
 	{
 		*p = rand() % 26 + 'A'; /* generate a random uppercase letter */
 		p++;
