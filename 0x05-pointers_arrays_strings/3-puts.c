@@ -6,7 +6,7 @@
  *
  * Return: void
  */
-void print_string(char *str)
+void _puts(char *str)
 {
     if (str == NULL)
         return;
