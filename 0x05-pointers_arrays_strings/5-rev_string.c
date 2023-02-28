@@ -8,10 +8,12 @@
  */
 void rev_string(char *s)
 {
+
 	if (s == NULL)
 		return;
 
-	char *end = s;
+	char *end;
+       	*end = s;
 	char tmp;
 
 	while (*end !='\0')
