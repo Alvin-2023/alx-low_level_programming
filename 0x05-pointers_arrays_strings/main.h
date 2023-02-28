@@ -6,6 +6,8 @@
 
 /*Function prototypes*/
 
+int _atoi(char *s);
+
 int putchar(int n);
 
 void swap_int(int *a, int *b);
