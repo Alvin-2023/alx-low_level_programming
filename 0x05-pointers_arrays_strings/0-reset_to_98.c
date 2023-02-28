@@ -1,5 +1,6 @@
 /**
  * Main - entry point of our program
+ * reset_to_98 - prints the re-evauluated int pointer
  * Return - terminates main function
 */
 #include <stdio.h>
@@ -7,9 +8,9 @@
 
 void reset_to_98(int *n)
 {
-  int p;
+	int p;
 
-  p = 98;
-  *n = p;
+	p = 98;
+	*n = p;
   
 }
