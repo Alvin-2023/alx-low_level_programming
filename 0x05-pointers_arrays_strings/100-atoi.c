@@ -24,16 +24,16 @@ int _atoi(char *s)
 	}
 
 	while (*p != '\0')
-    	{
-        	if (*p < '0' || *p > '9')
-        	{
-            		break;
-        	}
+	{
+		if (*p < '0' || *p > '9')
+		{
+			break;
+		}
 
 		result = result * 10 + (*p - '0');
 		p++;
 	}
 
-	return sign * result;
+	return (sign * result);
 }
 
