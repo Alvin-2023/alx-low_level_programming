@@ -6,6 +6,9 @@
  *
  * Return: void
  */
+#include "main.h"
+#include <stdio.h>
+
 void puts2(char *str)
 {
 	int i = 0;
@@ -16,6 +19,6 @@ void puts2(char *str)
 		i += 2;
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
 
