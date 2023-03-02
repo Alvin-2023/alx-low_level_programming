@@ -22,6 +22,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	/* Copy at most n bytes from the source string */
 	int i = 0;
+
 	while (i < n && *src != '\0')
 	{
 		*p++ = *src++;

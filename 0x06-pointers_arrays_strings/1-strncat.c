@@ -30,5 +30,5 @@ char *_strncat(char *dest, char *src, int n)
 	/* Null-terminate the destination string */
 	*dest_ptr = '\0';
 
-	return dest;
+	return (dest);
 }
